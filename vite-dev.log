@@ -6,3 +6,80 @@
   [32m[1mVITE[22m v6.3.5[39m  [2mready in [0m[1m575[22m[2m[0m ms[22m
 
   [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m7:08:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/App.tsx, /src/styles/index.css[22m
+[2m7:08:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/App.tsx, /src/styles/index.css[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/About/About.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Home/Home.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Projects/Projects.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Contacts/Contacts.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Contacts-1/Contacts-8-39.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/figma/ImageWithFallback.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/accordion.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/alert-dialog.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/alert.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/aspect-ratio.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/avatar.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/badge.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/breadcrumb.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/button.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/calendar.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/card.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/carousel.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/chart.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/checkbox.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/collapsible.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/command.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/context-menu.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/dialog.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/drawer.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/dropdown-menu.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/form.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/hover-card.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/input-otp.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/input.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/label.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/menubar.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/navigation-menu.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/pagination.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/popover.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/progress.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/radio-group.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/resizable.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/scroll-area.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/select.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/separator.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/sheet.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/sidebar.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/skeleton.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/slider.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/sonner.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/switch.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/table.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/tabs.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/textarea.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/toggle-group.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/toggle.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/tooltip.tsx[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/use-mobile.ts[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/app/components/ui/utils.ts[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/AboutPage.tsx, /src/styles/index.css[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/CertificationsPage.tsx, /src/styles/index.css[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/ContactsPage.tsx, /src/styles/index.css[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/HomePage.tsx, /src/styles/index.css[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/ProjectsPage.tsx, /src/styles/index.css[22m
+[2m7:08:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/SharedLayout.tsx, /src/styles/index.css[22m
+[2m7:08:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/About/svg-4uqx1w8by4.ts[22m
+[2m7:08:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Home/svg-6djasanw8c.ts[22m
+[2m7:08:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Projects/svg-mnd7mh17ma.ts[22m
+[2m7:08:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Contacts/svg-7j2ps28lg2.ts[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/About/54460c6b07a60652048526012507cff338176e45.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Home/43823be62a122f2cb9a8af7917b728e8bd17688c.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Home/54460c6b07a60652048526012507cff338176e45.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Home/5e1b101706b3018c4a2ba37fcd5c12f1d01a44f4.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Home/effc8fc20acdc065896e8d1184699b4b3010f5c0.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Home/f4d7792241ade353515843fc44bf4f33ac8d48cd.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Projects/0d21d21c7debb2fb6cf7bc7e8a1fe93caa48e896.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Projects/27d169a76f37bf3ef32acb39e52f153def2302b2.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Projects/43823be62a122f2cb9a8af7917b728e8bd17688c.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Projects/5e1b101706b3018c4a2ba37fcd5c12f1d01a44f4.png[22m
+[2m7:08:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/imports/Projects/effc8fc20acdc065896e8d1184699b4b3010f5c0.png[22m
