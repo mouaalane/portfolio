@@ -31,16 +31,30 @@ export function Navbar() {
 
       {/* Desktop nav */}
       <div className="hidden md:flex items-center gap-8">
-        {NAV_LINKS.map((link) => (
-          <a
-            key={link.label}
-            href={link.href(isHome)}
-            style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}
-            className="hover:text-white transition-colors"
-          >
-            {link.label}
-          </a>
-        ))}
+        {NAV_LINKS.map((link) => {
+          const href = link.href(isHome);
+          const isExternal = href.startsWith("#");
+
+          return isExternal ? (
+            <a
+              key={link.label}
+              href={href}
+              style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}
+              className="hover:text-white transition-colors"
+            >
+              {link.label}
+            </a>
+          ) : (
+            <Link
+              key={link.label}
+              to={href}
+              style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}
+              className="hover:text-white transition-colors"
+            >
+              {link.label}
+            </Link>
+          );
+        })}
         <span
           style={{ fontFamily: MONO, fontSize: 16, color: MUTED, cursor: "pointer" }}
           className="hover:text-white transition-colors"
@@ -70,16 +84,30 @@ export function Navbar() {
           className="absolute top-full left-0 right-0 border-b border-[#ABB2BF]/30 flex flex-col gap-4 px-6 py-4 md:hidden"
           style={{ background: BG }}
         >
-          {NAV_LINKS.map((link) => (
-            <a
-              key={link.label}
-              href={link.href(isHome)}
-              onClick={() => setMenuOpen(false)}
-              style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}
-            >
-              {link.label}
-            </a>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const href = link.href(isHome);
+            const isExternal = href.startsWith("#");
+
+            return isExternal ? (
+              <a
+                key={link.label}
+                href={href}
+                onClick={() => setMenuOpen(false)}
+                style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.label}
+                to={href}
+                onClick={() => setMenuOpen(false)}
+                style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
           <span style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}>EN ↓</span>
         </div>
       )}
