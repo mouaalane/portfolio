@@ -18,4 +18,6 @@ export const router = createBrowserRouter([
       { path: "/certifications", Component: CertificationsPage },
     ],
   },
-]);
+], {
+  basename: "/portfolio"
+});
