@@ -1,65 +1,40 @@
 import { DotGrid } from "../components/DotGrid";
 import { PageTitle } from "../components/PageTitle";
-import { MONO, ACCENT, MUTED, WHITE } from "../lib/constants";
+import { CertCard, Cert } from "../components/CertCard";
+import { MONO, ACCENT, MUTED } from "../lib/constants";
 
 // ── Certificate data ──────────────────────────────────────────────────────────
-const CERTS = [
-  { id: 1, title: "React — The Complete Guide",                     issuer: "Udemy",            category: "Frontend",          date: "Jan 2024", credentialId: "UC-4a9b2c3d",    url: "#", color: "#c778dd" },
-  { id: 2, title: "JavaScript Algorithms and Data Structures",      issuer: "freeCodeCamp",     category: "Languages",         date: "Sep 2023", credentialId: "FCC-JS-ADS-2023", url: "#", color: "#61afef" },
-  { id: 3, title: "Responsive Web Design",                          issuer: "freeCodeCamp",     category: "Frontend",          date: "Jun 2023", credentialId: "FCC-RWD-2023",    url: "#", color: "#61afef" },
-  { id: 4, title: "Python for Everybody",                           issuer: "Coursera",         category: "Languages",         date: "Mar 2023", credentialId: "CRS-PY4E-7X2K",  url: "#", color: "#e5c07b" },
-  { id: 5, title: "CS50: Introduction to Computer Science",         issuer: "Harvard / edX",   category: "Computer Science",  date: "Nov 2022", credentialId: "EDX-CS50-2022",   url: "#", color: "#98c379" },
-  { id: 6, title: "The Complete Node.js Developer Course",          issuer: "Udemy",            category: "Backend",           date: "Aug 2022", credentialId: "UC-7f1e8b4c",    url: "#", color: "#c778dd" },
-  { id: 7, title: "SQL and PostgreSQL: The Complete Developer's Guide", issuer: "Udemy",        category: "Databases",         date: "May 2022", credentialId: "UC-2d3e9f1a",    url: "#", color: "#c778dd" },
-  { id: 8, title: "Git & GitHub Bootcamp",                          issuer: "Udemy",            category: "Tools",             date: "Feb 2022", credentialId: "UC-5c6a7b8e",    url: "#", color: "#c778dd" },
-] as const;
+const CERTS: Cert[] = [
+  { id: 1, title: "Cours1-Programming Foundations-Level1", issuer: "ProgrammingAdvices.com", category: "Fundamental Concepts", date: "Jan 2024", credentialId: "UC-4a9b2c3d", url: "#", color: "#c778dd" },
+  { id: 2, title: "Cours2-Algorithme And Probleme Solving Level 1", issuer: "ProgrammingAdvices.com", category: "problem Solving ", date: "Sep 2023", credentialId: "FCC-JS-ADS-2023", url: "#", color: "#61afef" },
+  { id: 3, title: "Cours3-C++ Level1", issuer: "ProgrammingAdvices.com", category: "C++", date: "Jun 2023", credentialId: "FCC-RWD-2023", url: "#", color: "#61afef" },
+  { id: 4, title: "Cours4-Solution Algorithme and Probleme Solving 1", issuer: "ProgrammingAdvices.com", category: "problem Solving", date: "Mar 2023", credentialId: "CRS-PY4E-7X2K", url: "#", color: "#e5c07b" },
+  { id: 5, title: "Cours5-Algorithme and Probleme Solving Level 2", issuer: "ProgrammingAdvices.com", category: "problem Solving", date: "Nov 2022", credentialId: "EDX-CS50-2022", url: "#", color: "#98c379" },
+  { id: 6, title: "Cours6-C++ Level 2", issuer: "ProgrammingAdvices.com", category: "C++", date: "Aug 2022", credentialId: "UC-7f1e8b4c", url: "#", color: "#c778dd" },
+  { id: 7, title: "Cours7-Alorithm and Probleme Solving Level 3", issuer: "ProgrammingAdvices.com", category: "problem Solving", date: "May 2022", credentialId: "UC-2d3e9f1a", url: "#", color: "#c778dd" },
+  { id: 8, title: "Cours8-Alorithm and Probleme Solving Level 4", issuer: "ProgrammingAdvices.com", category: "Fundamental Concepts", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 9, title: "Cours9-ProgrammingFundations2 Networks", issuer: "ProgrammingAdvices.com", category: "Fundamental Concepts", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 10, title: "Cours10-OPP as it should Be", issuer: "ProgrammingAdvices.com", category: "OOP", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 11, title: "Cours11-OPP as it should Be Applications", issuer: "ProgrammingAdvices.com", category: "OOP", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 12, title: "Cours12-Data Structures - Level1 ", issuer: "ProgrammingAdvices.com", category: "Data Structures", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 13, title: "Cours13- Algorithms & Problem Solving Level 5", issuer: "ProgrammingAdvices.com", category: "Fundamental Concepts", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 14, title: "Cours-14 C# Level 1", issuer: "ProgrammingAdvices.com", category: "C#", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 15, title: "Cours-15 DataBase Level1", issuer: "ProgrammingAdvices.com", category: "Data Structures", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 16, title: "Cours-16 OOP IN C#", issuer: "ProgrammingAdvices.com", category: "C#", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 17, title: "Cours-17 Database sql(Projects and practice)", issuer: "ProgrammingAdvices.com", category: "Data Structures", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 18, title: "Cours-18 C# & Database Connectivity", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 19, title: "Cours-19-FullProject", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 20, title: "Cours-20-C# Level 2", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 21, title: "Cours-21 - Database Level2 - Concepts & T-SQL", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 22, title: "Cours-22-Data Structures-Level-2-In-C#", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 23, title: "Cours-23-Algorithms Level 6", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 24, title: "Cours-24-Windows Services", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 25, title: "Introduction to RESTful APIs", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 26, title: "HTML-Deep-Dive", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 27, title: "CSS-Foundations-Deep-Dive", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
+  { id: 28, title: "Start Coding with JavaScript: Beginner’s Essentials Guide", issuer: "ProgrammingAdvices.com", category: "Tools", date: "Feb 2022", credentialId: "UC-5c6a7b8e", url: "#", color: "#c778dd" },
 
-type Cert = typeof CERTS[number];
-
-// ── Sub-components ────────────────────────────────────────────────────────────
-function CategoryBadge({ label }: { label: string }) {
-  return (
-    <span className="border border-[#c778dd] px-2 py-0.5" style={{ fontFamily: MONO, fontSize: 12, color: ACCENT }}>
-      {label}
-    </span>
-  );
-}
-
-function IssuerIcon({ issuer, color }: { issuer: string; color: string }) {
-  return (
-    <div className="size-10 flex items-center justify-center shrink-0 border" style={{ borderColor: color }}>
-      <span style={{ fontFamily: MONO, fontWeight: 700, fontSize: 18, color }}>{issuer[0]}</span>
-    </div>
-  );
-}
-
-function CertCard({ title, issuer, category, date, credentialId, url, color }: Cert) {
-  return (
-    <div className="border border-[#ABB2BF] flex flex-col hover:border-[#c778dd] transition-colors group">
-      <div className="border-b border-[#ABB2BF] group-hover:border-[#c778dd] transition-colors px-4 py-3 flex items-center gap-3">
-        <IssuerIcon issuer={issuer} color={color} />
-        <div className="flex flex-col gap-1 min-w-0">
-          <p className="truncate" style={{ fontFamily: MONO, fontWeight: 500, fontSize: 16, color: WHITE }}>{title}</p>
-          <p style={{ fontFamily: MONO, fontSize: 13, color: MUTED }}>{issuer}</p>
-        </div>
-      </div>
-      <div className="px-4 py-4 flex flex-col gap-3 flex-1">
-        <div className="flex items-center justify-between flex-wrap gap-2">
-          <CategoryBadge label={category} />
-          <span style={{ fontFamily: MONO, fontSize: 13, color: MUTED }}>{date}</span>
-        </div>
-        <p style={{ fontFamily: MONO, fontSize: 12, color: MUTED }}>
-          <span style={{ color: ACCENT }}>ID: </span>{credentialId}
-        </p>
-      </div>
-      <div className="border-t border-[#ABB2BF] group-hover:border-[#c778dd] transition-colors px-4 py-3">
-        <a href={url} className="inline-flex items-center gap-1 hover:gap-2 transition-all" style={{ fontFamily: MONO, fontSize: 14, color: ACCENT }}>
-          View credential <span>→</span>
-        </a>
-      </div>
-    </div>
-  );
-}
+];
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 export default function CertificationsPage() {

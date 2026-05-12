@@ -1,4 +1,4 @@
-import { MONO, ACCENT, MUTED, WHITE } from "../lib/constants";
+import { MONO, ACCENT, WHITE } from "../lib/constants";
 
 /**
  * PageTitle — the `/page-name` heading shown at the top of inner pages.
