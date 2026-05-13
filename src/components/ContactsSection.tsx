@@ -18,11 +18,11 @@ export function ContactsSection() {
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2">
               <DiscordIcon />
-              <span style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}>!Elias#3519</span>
+              <span style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}>!Ouaalane#3519</span>
             </div>
             <div className="flex items-center gap-2">
               <EmailIcon />
-              <span style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}>elias@elias.me</span>
+              <span style={{ fontFamily: MONO, fontSize: 16, color: MUTED }}>ouaalaneMohamed</span>
             </div>
           </div>
         </div>
